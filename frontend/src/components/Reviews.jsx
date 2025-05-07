@@ -12,7 +12,7 @@ import {
 import axios from 'axios';
 import './Reviews.css';
 
-const API_URL = 'https://mirzat.onrender.com/api';
+const API_URL = '/api';
 
 const Reviews = () => {
   const [reviews, setReviews] = useState([]);
