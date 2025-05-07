@@ -9,11 +9,13 @@ const Packages = () => {
       duration: "15 days",
       features: [
         "3-star hotel accommodation",
-        "Standard transportation",
-        "Basic meals",
-        "Guide service",
+        "Makkah Hotel: 1800 meters (Bus Service)",
+        "Madina Hotel: 800 meters",
+        "3 times buffet meal",
+        "Local Ziyarat in luxury ac bus ",
         "Visa processing",
-        "Via Flight"
+        "Via Flight",
+        "5 liters Zamzam and bags kit complimentary ",
       ],
       image:
         "https://images.unsplash.com/photo-1605553378313-22d0dc541393?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGhhamp8ZW58MHx8MHx8fDA%3D",
@@ -24,27 +26,32 @@ const Packages = () => {
       duration: "15 days",
       features: [
         "3-star hotel accommodation",
-        "luxury transportation",
-        "3 times meals",
+        "Makkah Hotel: 1200 meters (Bus Service)",
+        "3 times buffet meal",
        
-        "Guide service",
+        "Madina Hotel: 400 meters ",
+        "Local Ziyarat in luxury ac bus ",
         "Visa processing",
-        "Via Flight"
+        "Direct Flight",
+        "5 liters Zamzam and bags kit complimentary ",
       ],
       image:
         "https://images.unsplash.com/photo-1676607186575-45f0b8afde74?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDh8fGhhamp8ZW58MHx8MHx8fDA%3D",
     },
     {
-      title: "Premium Hajj Package",
+      title: "Premium Umrah Package",
       price: "88,000",
       duration: "15 days",
       features: [
         "3-star hotel accommodation",
-        "luxury transportation",
+        "Makkah Hotel:  450 meters (Walking Distance)",
         "3 times meals",
+        "Madina Hotel: 200 meters ",
+        "Local Ziyarat in luxury ac bus ",
         "Visa processing",
-        "Guide service",
-        "Direct Flight"
+        "Direct Flight",
+        "5 liters Zamzam and bags kit complimentary ",
+
       ],
       image:
         "https://images.unsplash.com/photo-1513072064285-240f87fa81e8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhhamp8ZW58MHx8MHx8fDA%3D",
