@@ -67,7 +67,7 @@ const Packages = () => {
           component="h1"
           color="text.secondary"
           gutterBottom>
-          Begin Your <span className="awal">spiritual</span> Adventure
+          Begin Your spiritual Adventure
         </Typography>
         <Typography variant="h6" color="text.secondary">
           Choose the perfect package for your spiritual journey.
