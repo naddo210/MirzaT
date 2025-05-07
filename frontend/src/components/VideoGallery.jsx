@@ -22,7 +22,7 @@ const VideoGallery = () => {
 
   const fetchVideos = async () => {
     try {
-      const response = await axios.get('https://mirzat.onrender.com/api/videos');
+      const response = await axios.get('/api/videos');
       setVideos(response.data);
     } catch (error) {
       console.error('Error fetching videos:', error);
