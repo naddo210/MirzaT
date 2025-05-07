@@ -24,7 +24,7 @@ const AdminPanel = () => {
     // Verify the token format
     try {
       const [username, password] = atob(authToken).split(':');
-      if (username !== 'admin' || password !== 'admin123') {
+      if (username !== 'adminMirza' || password !== 'Mirza@0210') {
         handleLogout();
       } else {
         setIsAuthenticated(true);
