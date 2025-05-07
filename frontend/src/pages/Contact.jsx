@@ -94,7 +94,7 @@ const Contact = () => {
                 fontSize: { xs: '2rem', md: '3rem' }
               }}
             >
-              Get in Touch
+              Get in Touch With Us
             </Typography>
             <Typography 
               variant="body1" 
@@ -105,7 +105,7 @@ const Contact = () => {
                 mb: 2
               }}
             >
-              Have questions about our Hajj or Umrah packages? We're here to help you plan your spiritual journey.
+             We’d love to hear from you! Whether you have a question about packages, bookings, or travel plans — we're here to help.
             </Typography>
           </Box>
           
@@ -240,10 +240,13 @@ const Contact = () => {
                 <strong>Email:</strong> info.mirzatours@gmail.com
               </Typography>
               <Typography variant="body1">
-                <strong>Phone:</strong> +91 9867952133 / +91 9967049112
+                <strong>Phone:</strong> Mirza Muqaddar: +91 9867952133 
               </Typography>
               <Typography variant="body1">
-                <strong>Working Hours:</strong> Monday - Friday, 9:00 AM - 6:00 PM
+                <strong>Phone:</strong> Mirza Huzefa: 9967043112
+              </Typography>
+              <Typography variant="body1">
+                <strong>Working Hours:</strong> Monday - Saturday, 11:00 AM - 8:00 PM
               </Typography>
             </Box>
           </Paper>
