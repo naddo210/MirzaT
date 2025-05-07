@@ -22,7 +22,7 @@ const VideoGallery = () => {
 
   const fetchVideos = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/api/videos');
+      const response = await axios.get('https://mirzat.onrender.com/api/videos');
       setVideos(response.data);
     } catch (error) {
       console.error('Error fetching videos:', error);
@@ -99,7 +99,7 @@ const VideoGallery = () => {
                     <CardMedia
                       component="video"
                       controls
-                      src={`http://localhost:5000/${video.videoUrl}`}
+                      src={`https://mirzat.onrender.com/${video.videoUrl}`}
                       sx={{
                         position: 'absolute',
                         top: 0,
