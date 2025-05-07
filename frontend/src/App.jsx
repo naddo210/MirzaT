@@ -26,10 +26,10 @@ function App() {
           <Route path="/about" element={<About/>}/>
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/admin" element={<AdminPanel />}>
+         <Route path="/admin" element={<AdminPanel />}>
+            <Route index element={<AdminReviews />} /> {/* Add this line */}
             <Route path="reviews" element={<AdminReviews />} />
-            <Route path="reviews" element={<AdminReviews />} />
-          <Route path="videos" element={<AdminVideos />} />
+            <Route path="videos" element={<AdminVideos />} />
           </Route>
         </Routes>
         <Footer />
