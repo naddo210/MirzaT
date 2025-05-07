@@ -12,7 +12,7 @@ import {
 import axios from 'axios';
 import './Reviews.css';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://mirzat.onrender.com/api';
 
 const Reviews = () => {
   const [reviews, setReviews] = useState([]);
