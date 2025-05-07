@@ -60,7 +60,7 @@ const Reviews = () => {
         component="h2"
         align="center"
         gutterBottom>
-        What Our <span className='awal'>Pilgrims Say</span> 
+        What Our Pilgrims Say
       </Typography>
       <Grid container spacing={3}>
         {reviews.map((review) => (
