@@ -31,7 +31,7 @@ const AdminVideos = () => {
 
   const fetchVideos = async () => {
     try {
-      const response = await axios.get('/api/videos');
+      const response = await axios.get('https://mirzat.onrender.com/api/videos');
       setVideos(response.data);
     } catch (error) {
       console.error('Error fetching videos:', error);
@@ -60,7 +60,7 @@ const AdminVideos = () => {
 
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`/api/videos/${id}`);
+      await axios.delete(`https://mirzat.onrender.com/api/videos/${id}`);
       fetchVideos();
     } catch (error) {
       console.error('Error deleting video:', error);
@@ -115,7 +115,7 @@ const AdminVideos = () => {
                     height: '100%',
                     objectFit: 'cover'
                   }}
-                  src={`http://localhost:5000/${video.videoUrl}`}
+                  src={`https://mirzat.onrender.com/${video.videoUrl}`}
                 />
               </Box>
               <CardContent sx={{ 
