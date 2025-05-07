@@ -9,7 +9,7 @@ const Services = () => {
       image: 'https://images.unsplash.com/photo-1588987281806-f9d790d9681a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTR8fGhhamp8ZW58MHx8MHx8fDA%3D'
     },
     {
-      title: 'Umrah Services',
+      title: 'Umrah Packages',
       description: 'Flexible Umrah packages tailored to your schedule and preferences.',
       image: 'https://images.unsplash.com/photo-1692566123227-0f68f1b9dac6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWFkaW5hfGVufDB8fDB8fHww'
     },
@@ -26,7 +26,7 @@ const Services = () => {
     {
       title: 'Guided Tours',
       description: 'Expert guides to help you perform rituals correctly.',
-      image: 'https://images.unsplash.com/photo-1535191162489-aaec838b5221?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fGd1aWRlfGVufDB8fDB8fHww'
+      image: 'https://www.islamiclandmarks.com/wp-content/uploads/2016/01/Masjid-Quba-front.jpg'
     },
     {
       title: 'Visa Assistance',
