@@ -45,7 +45,7 @@ const AdminVideos = () => {
     formData.append('video', newVideo.video);
 
     try {
-      await axios.post(`${process.env.REACT_APP_API_URL}/api/videos`, formData, {
+      await axios.post('https://mirzat.onrender.com/api/videos', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
