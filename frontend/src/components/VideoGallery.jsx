@@ -59,7 +59,7 @@ const VideoGallery = () => {
                 }
               }}
             >
-              Our Journey Videos
+             Mirza Hajj & Umrah Tours
             </Typography>
             <Typography
               variant="subtitle1"
@@ -71,7 +71,11 @@ const VideoGallery = () => {
                 lineHeight: 1.8
               }}
             >
-              Experience of our customers after their Hajj or Umrah journey.
+                 <b>we believe our service speaks for itself</b> —but nothing is
+              more powerful than{" "}
+              <b>hearing directly from those who have experienced it</b> . Below
+              are heartfelt testimonials from our valued pilgrims who have
+              journeyed with us for <b>Hajj, Umrah, and Ziyarat tours.</b>
             </Typography>
           </Box>
         </Fade>
