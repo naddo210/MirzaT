@@ -243,7 +243,7 @@ const Contact = () => {
                 <strong>Phone:</strong> Mirza Muqaddar: +91 9867952133 
               </Typography>
               <Typography variant="body1">
-                <strong>Phone:</strong> Mirza Huzefa: 9967043112
+                <strong>Phone:</strong> Mirza Huzefa: +91 9967043112
               </Typography>
               <Typography variant="body1">
                 <strong>Working Hours:</strong> Monday - Saturday, 11:00 AM - 8:00 PM
