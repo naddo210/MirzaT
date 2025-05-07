@@ -56,10 +56,10 @@ const Home = () => {
         <div className="hero-content">
           <Container maxWidth="md">
             <Typography variant="h1" component="h1" className="hero-title">
-              <span className="awal">Embark</span> on Your Sacred <span className="awal">Journey</span>
+              Embark on Your Sacred Journey
             </Typography>
             <Typography variant="h5" className="hero-subtitle">
-              Let us guide you through a transformative spiritual experience with our premium <span className="awal">Hajj</span> and <span className="awal">Umrah</span> services.
+             through the holy cities of Makkah and Madina with our specially curated Local Ziyarat tours. Designed to deepen your spiritual experience, our guided visits cover the most revered Islamic landmarks and historic sites
             </Typography>
             <Box mt={4}>
               <Button
