@@ -24,8 +24,8 @@ const Services = () => {
       image: 'https://plus.unsplash.com/premium_photo-1661879252375-7c1db1932572?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fGhvdGVsfGVufDB8fDB8fHww'
     },
     {
-      title: 'Guided Tours',
-      description: 'Expert guides to help you perform rituals correctly.',
+      title: 'Ziyarat',
+      description: 'Embark on a spiritually enriching journey through the holy cities of Makkah and Madina with our specially curated Local Ziyarat tours.',
       image: 'https://www.islamiclandmarks.com/wp-content/uploads/2016/01/Masjid-Quba-front.jpg'
     },
     {
