@@ -31,7 +31,7 @@ const AdminVideos = () => {
 
   const fetchVideos = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/api/videos');
+      const response = await axios.get('https://mirzat.onrender.com/api/videos');
       setVideos(response.data);
     } catch (error) {
       console.error('Error fetching videos:', error);
@@ -45,7 +45,7 @@ const AdminVideos = () => {
     formData.append('video', newVideo.video);
 
     try {
-      await axios.post('http://localhost:5000/api/videos', formData, {
+      await axios.post('https://mirzat.onrender.com/api/videos', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
@@ -60,7 +60,7 @@ const AdminVideos = () => {
 
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`http://localhost:5000/api/videos/${id}`);
+      await axios.delete(`https://mirzat.onrender.com/api/videos/${id}`);
       fetchVideos();
     } catch (error) {
       console.error('Error deleting video:', error);
