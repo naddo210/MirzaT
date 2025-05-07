@@ -15,7 +15,7 @@ const Packages = () => {
         "Local ziyarat in luxury ac bus ",
         "Visa processing",
         "Via Flight",
-        "5 liters Zamzam and bags kit complimentary ",
+        "5 liters zamzam and bags kit complimentary ",
       ],
       image:
         "https://images.unsplash.com/photo-1605553378313-22d0dc541393?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGhhamp8ZW58MHx8MHx8fDA%3D",
@@ -27,13 +27,14 @@ const Packages = () => {
       features: [
         "3-star hotel accommodation",
         "Makkah Hotel: 1200 meters (Bus Service)",
+         "Madina Hotel: 400 meters ",
         "3 times buffet meal",
        
-        "Madina Hotel: 400 meters ",
+       
         "Local ziyarat in luxury ac bus ",
         "Visa processing",
         "Direct Flight",
-        "5 liters Zamzam and bags kit complimentary ",
+        "5 liters zamzam and bags kit complimentary ",
       ],
       image:
         "https://images.unsplash.com/photo-1676607186575-45f0b8afde74?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDh8fGhhamp8ZW58MHx8MHx8fDA%3D",
@@ -45,12 +46,13 @@ const Packages = () => {
       features: [
         "3-star hotel accommodation",
         "Makkah Hotel:  450 meters (Walking Distance)",
-        "3 times meals",
         "Madina Hotel: 200 meters ",
+        "3 times buffet meal",
+        
         "Local ziyarat in luxury ac bus ",
         "Visa processing",
         "Direct Flight",
-        "5 liters Zamzam and bags kit complimentary ",
+        "5 liters zamzam and bags kit complimentary ",
 
       ],
       image:
