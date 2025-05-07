@@ -39,7 +39,7 @@ const Services = () => {
     <Container maxWidth="lg" sx={{ mt: 10, mb: 8 }}>
       <Box textAlign="center" mb={6}>
         <Typography variant="h3" color="text.secondary" component="h1" gutterBottom>
-          Our <span className="awal">Services</span> 
+          Our Services 
         </Typography>
         <Typography variant="h6" color="text.secondary">
           Comprehensive solutions for your spiritual journey
