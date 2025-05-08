@@ -114,7 +114,7 @@ const VideoGallery = () => {
                         objectFit: 'cover'
                       }}
                     /> */}
-                    <CardMedia
+                   <CardMedia
   component="video"
   controls
   src={video.videoUrl}
@@ -128,6 +128,7 @@ const VideoGallery = () => {
     objectFit: 'cover'
   }}
 />
+
 
                   </Box>
                   <CardContent 
