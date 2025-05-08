@@ -100,7 +100,7 @@ const VideoGallery = () => {
                   }}
                 >
                   <Box sx={{ position: 'relative', paddingTop: '56.25%' }}>
-                    <CardMedia
+{/*                     <CardMedia
                       component="video"
                       controls
                       src={`https://mirzat.onrender.com/${video.videoUrl}`}
@@ -113,7 +113,22 @@ const VideoGallery = () => {
                         transform: "translate(-50%, -50%)",
                         objectFit: 'cover'
                       }}
-                    />
+                    /> */}
+                    <CardMedia
+  component="video"
+  controls
+  src={video.videoUrl}
+  sx={{
+    position: 'absolute',
+    top: "50%",
+    left: "50%",
+    width: '100%',
+    height: '100%',
+    transform: "translate(-50%, -50%)",
+    objectFit: 'cover'
+  }}
+/>
+
                   </Box>
                   <CardContent 
                     sx={{ 
