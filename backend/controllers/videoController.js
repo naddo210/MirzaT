@@ -1,5 +1,7 @@
 const asyncHandler = require('express-async-handler');
 const Video = require('../models/Video');
+// added later
+const path = require('path');
 
 const getVideos = asyncHandler(async (req, res) => {
   const videos = await Video.find().sort({ createdAt: -1 });
@@ -18,17 +20,19 @@ const getVideos = asyncHandler(async (req, res) => {
 //   res.status(201).json(video);
 // });
 
+
+
 const uploadVideo = asyncHandler(async (req, res) => {
   const { title } = req.body;
 
-  // Ensure the file exists
+  // Ensure a file is uploaded
   if (!req.file) {
     res.status(400).json({ message: 'No video file uploaded' });
     return;
   }
 
-  // Construct the video URL properly
-  const videoUrl = `${req.protocol}://${req.get('host')}/uploads/videos/${req.file.filename}`;
+  // Construct the video URL correctly
+  const videoUrl = `${req.protocol}://${req.get('host')}/${req.file.path.replace(/\\/g, '/')}`;
 
   // Save to database
   const video = await Video.create({
@@ -38,6 +42,7 @@ const uploadVideo = asyncHandler(async (req, res) => {
 
   res.status(201).json(video);
 });
+
 
 
 const deleteVideo = asyncHandler(async (req, res) => {
