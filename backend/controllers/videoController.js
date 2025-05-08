@@ -6,13 +6,25 @@ const getVideos = asyncHandler(async (req, res) => {
   res.json(videos);
 });
 
+// const uploadVideo = asyncHandler(async (req, res) => {
+//   const { title } = req.body;
+//   const videoUrl = req.file.path;
+
+//   const video = await Video.create({
+//     title,
+//     videoUrl
+//   });
+
+//   res.status(201).json(video);
+// });
+
 const uploadVideo = asyncHandler(async (req, res) => {
   const { title } = req.body;
-  const videoUrl = req.file.path;
+  const videoUrl = `${req.protocol}://${req.get('host')}/${req.file.path}`;
 
   const video = await Video.create({
     title,
-    videoUrl
+    videoUrl,
   });
 
   res.status(201).json(video);
