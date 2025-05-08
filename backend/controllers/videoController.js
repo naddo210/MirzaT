@@ -1,7 +1,6 @@
 const asyncHandler = require('express-async-handler');
 const Video = require('../models/Video');
-// added later
-const path = require('path');
+
 
 const getVideos = asyncHandler(async (req, res) => {
   const videos = await Video.find().sort({ createdAt: -1 });
@@ -31,8 +30,8 @@ const uploadVideo = asyncHandler(async (req, res) => {
     return;
   }
 
-  // Construct the video URL correctly
-  const videoUrl = `${req.protocol}://${req.get('host')}/${req.file.path.replace(/\\/g, '/')}`;
+  // Force HTTPS when creating the video URL
+  const videoUrl = `${req.protocol === 'http' ? 'https' : req.protocol}://${req.get('host')}/${req.file.path.replace(/\\/g, '/')}`;
 
   // Save to database
   const video = await Video.create({
@@ -42,6 +41,7 @@ const uploadVideo = asyncHandler(async (req, res) => {
 
   res.status(201).json(video);
 });
+
 
 
 
