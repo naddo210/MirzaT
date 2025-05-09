@@ -24,7 +24,7 @@ const getVideos = asyncHandler(async (req, res) => {
 const uploadVideo = asyncHandler(async (req, res) => {
   const { title } = req.body;
 
-  // Ensure a file is uploaded
+
   if (!req.file) {
     res.status(400).json({ message: 'No video file uploaded' });
     return;
