@@ -41,7 +41,7 @@ app.use('/uploads', express.static('uploads', {
   }
 }));
 
-// Routes
+
 app.use('/api/reviews', require('./routes/reviewRoutes'));
 app.use('/api/videos', require('./routes/videoRoutes'));
 
