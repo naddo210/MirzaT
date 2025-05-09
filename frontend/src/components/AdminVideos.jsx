@@ -293,7 +293,7 @@ const AdminVideos = () => {
     document.activeElement.blur(); // Fix: Remove focus before opening dialog
     setOpen(true);
   };
-// console.log(`Video URL: https://mirzat.onrender.com/${video.videoUrl}`);
+
   return (
     <Container maxWidth="lg" sx={{ py: { xs: 2, sm: 3, md: 4 } }}>
       <Box 
