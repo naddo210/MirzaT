@@ -23,8 +23,16 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+// app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 // app.use('/uploads', express.static('uploads'));
+
+app.use('/uploads', express.static('uploads', {
+  setHeaders: (res, path) => {
+    if (path.endsWith('.mp4')) {
+      res.setHeader('Content-Type', 'video/mp4');
+    }
+  }
+}));
 
 // Routes
 app.use('/api/reviews', require('./routes/reviewRoutes'));
