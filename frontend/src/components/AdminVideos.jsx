@@ -342,7 +342,8 @@ const AdminVideos = () => {
                     height: '100%',
                     objectFit: 'cover'
                   }}
-                  src={`https://mirzat.onrender.com/${video.videoUrl}`}
+{/*                   src={`https://mirzat.onrender.com/${video.videoUrl}`} */}
+                  src={`https://mirzat.onrender.com/uploads/${video.videoUrl}`}
                 />
               </Box>
               <CardContent sx={{ p: 2, '&:last-child': { pb: 2 } }}>
