@@ -117,7 +117,7 @@ const VideoGallery = () => {
                    <CardMedia
   component="video"
   controls
-  src={video.videoUrl}
+  src={video.videoUrl.replace(/^http:\/\//, 'https://')}
   sx={{
     position: 'absolute',
     top: "50%",
@@ -128,6 +128,7 @@ const VideoGallery = () => {
     objectFit: 'cover'
   }}
 />
+
 
 
                   </Box>
