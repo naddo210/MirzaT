@@ -32,7 +32,9 @@ const uploadVideo = asyncHandler(async (req, res) => {
 
   // Force HTTPS when creating the video URL
   // const videoUrl = `${req.protocol === 'http' ? 'https' : req.protocol}://${req.get('host')}/${req.file.path.replace(/\\/g, '/')}`;
-const videoUrl = `https://${req.get('host')}/${req.file.path.replace(/\\/g, '/')}`;
+// const videoUrl = `https://${req.get('host')}/${req.file.path.replace(/\\/g, '/')}`;
+  const videoUrl = `https://${req.get('host')}/uploads/videos/${req.file.filename}`;
+
 
   // Save to database
   const video = await Video.create({
