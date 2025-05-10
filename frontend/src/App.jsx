@@ -48,7 +48,7 @@ import Services from './pages/Services';
 import Contact from './pages/Contact';
 import AdminPanel from './pages/AdminPanel';
 import AdminReviews from './components/AdminReviews';
-import PackageManager from './pages/admin/PackageManager';
+import PackageManager from './pages/PackageManager';
 import Footer from './components/Footer';
 import './App.css';
 import About from './pages/About';
