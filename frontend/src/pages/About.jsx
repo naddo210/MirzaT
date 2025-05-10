@@ -62,7 +62,7 @@ const About = () => {
             Our mission
           </h1>
         </div>
-        <p>Our <b>mission</b>  is to offer comprehensive and affordable pilgrimage packages that cater to the diverse needs of our clients. We strive to ensure that every aspect of your journey—from visa processing and flight bookings to comfortable accommodations and guided tours—is handled with the utmost professionalism and care.</p>
+        <p>Our <b>Mission</b>  is to offer comprehensive and affordable pilgrimage packages that cater to the diverse needs of our clients. We strive to ensure that every aspect of your journey—from visa processing and flight bookings to comfortable accommodations and guided tours—is handled with the utmost professionalism and care.</p>
         <div className="about-top">
           <h1 className="">
             Why Choose Us?
