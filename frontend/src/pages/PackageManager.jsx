@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+// import { useState, useEffect } from 'react';
 import {
   Container,
   Typography,
@@ -32,10 +32,19 @@ const PackageManager = () => {
     fetchPackages();
   }, []);
 
+  const API_URL = process.env.REACT_APP_API_URL || 'https://mirzat.onrender.com';
+  
   const fetchPackages = async () => {
     try {
-      const response = await fetch('https://mirzat.onrender.com/api/packages');
+      const response = await fetch('https://mirzat.onrender.com/api/packages', {
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        }
+      });
       if (!response.ok) {
+        const errorText = await response.text();
+        console.error('Server response:', errorText);
         throw new Error(`HTTP error! status: ${response.status}`);
       }
       const data = await response.json();
