@@ -7,7 +7,7 @@ const {
   deletePackage
 } = require('../controllers/packageController');
 
-// Routes
+
 router.get('/', getAllPackages);
 router.post('/', createPackage);
 router.put('/:id', updatePackage);
