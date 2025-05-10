@@ -60,7 +60,7 @@ const Reviews = () => {
         component="p"
         align="center"
         gutterBottom>
-         <h2>What Our Pilgrims Say</h2>
+         <h2 className="bottom" >What Our Pilgrims Say</h2>
         <b>We believe our service speaks for itself</b> —but nothing is
               more powerful than{" "}
               <b>hearing directly from those who have experienced it</b> . Below
