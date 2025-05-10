@@ -150,7 +150,7 @@ const Packages = () => {
           component="h1"
           color="text.secondary"
           gutterBottom>
-          Begin Your spiritual Adventure
+          Begin Your Spiritual Adventure
         </Typography>
         <Typography variant="h6" color="text.secondary">
           Choose the perfect package for your spiritual journey.
