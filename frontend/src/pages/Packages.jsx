@@ -118,7 +118,6 @@
 // };
 
 // export default Packages;
-
 import { Container, Typography, Grid, Card, CardContent, CardMedia, Button, Chip, Box } from '@mui/material';
 import { useState, useEffect } from 'react';
 import './Packages.css';
@@ -132,7 +131,7 @@ const Packages = () => {
 
   const fetchPackages = async () => {
     try {
-      const response = await fetch('/api/packages');
+      const response = await fetch('https://mirzat.onrender.com/api/packages');
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
@@ -200,4 +199,3 @@ const Packages = () => {
 };
 
 export default Packages;
-
