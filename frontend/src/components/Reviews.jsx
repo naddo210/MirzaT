@@ -60,7 +60,8 @@ const Reviews = () => {
         component="p"
         align="center"
         gutterBottom>
-        <b>we believe our service speaks for itself</b> —but nothing is
+         <h2>What our pilgrims say about us</h2>
+        <b>We believe our service speaks for itself</b> —but nothing is
               more powerful than{" "}
               <b>hearing directly from those who have experienced it</b> . Below
               are heartfelt testimonials from our valued pilgrims who have
