@@ -54,13 +54,17 @@ const Reviews = () => {
   return (
     <Container maxWidth="lg" className="reviews-section">
       <Typography
-        variant="h4"
+        variant="p"
         className="section-title"
         color={"text.secondary"}
-        component="h2"
+        component="p"
         align="center"
         gutterBottom>
-        What Our Pilgrims Say
+        <b>we believe our service speaks for itself</b> —but nothing is
+              more powerful than{" "}
+              <b>hearing directly from those who have experienced it</b> . Below
+              are heartfelt testimonials from our valued pilgrims who have
+              journeyed with us for <b>Hajj, Umrah, and Ziyarat tours.</b>
       </Typography>
       <Grid container spacing={3}>
         {reviews.map((review) => (
