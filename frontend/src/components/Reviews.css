@@ -36,6 +36,9 @@
   text-align: right;
   margin-top: 1rem;
 }
+.bottom{
+  margin-bottom: 3rem;
+}
 
 @media (max-width: 600px) {
   .reviews-section {
