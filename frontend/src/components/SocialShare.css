@@ -6,7 +6,11 @@
     transition: .4s ease-in-out;
     margin-top: 60px;
   }
-  
+  .youtube {
+  color: red;
+  width: 24px;
+  height: 24px;
+  }
   .btn1 {
     position: relative;
     width: 3em;
