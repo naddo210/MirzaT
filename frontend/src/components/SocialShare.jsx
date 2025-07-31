@@ -28,12 +28,11 @@ const SocialShare = () => {
           <path d="M6.6 10.8a15.3 15.3 0 006.6 6.6l2.2-2.2c.3-.3.8-.4 1.2-.2 1.3.5 2.7.8 4.1.8.7 0 1.3.6 1.3 1.3v3.4c0 .7-.6 1.3-1.3 1.3C10.8 22 2 13.2 2 2.6 2 1.9 2.6 1.3 3.3 1.3H6.7c.7 0 1.3.6 1.3 1.3 0 1.4.3 2.8.8 4.1.1.4 0 .9-.3 1.2l-2 2z"/>
         </svg>
       </a>
-
-        <a href="https://www.youtube.com/@mirza_haj_and_umrah_tours" className="btn5" target="_blank" rel="noopener noreferrer">
-    <svg className="youtube" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M10 15l5.19-3L10 9v6zm12-3c0-2.5-.2-4.1-.5-5.2-.3-1.1-1-1.9-1.9-2.2C18.3 4 12 4 12 4s-6.3 0-7.6.6c-.9.3-1.6 1.1-1.9 2.2C2.2 7.9 2 9.5 2 12s.2 4.1.5 5.2c.3 1.1 1 1.9 1.9 2.2C5.7 20 12 20 12 20s6.3 0 7.6-.6c.9-.3 1.6-1.1 1.9-2.2.3-1.1.5-2.7.5-5.2z"/>
-    </svg>
-  </a>
+<a href="https://www.youtube.com/@mirza_haj_and_umrah_tours" className="btn5" target="_blank" rel="noopener noreferrer">
+  <svg className="youtube" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="24" height="24" fill="currentColor">
+    <path d="M549.7 124.1c-6.3-23.8-24.9-42.5-48.7-48.9C456.5 64 288 64 288 64S119.5 64 74.97 75.2c-23.8 6.3-42.5 25-48.8 48.9C16 168.4 16 256 16 256s0 87.6 10.2 131.9c6.3 23.8 24.9 42.5 48.8 48.9C119.5 448 288 448 288 448s168.5 0 213-11.2c23.8-6.3 42.5-25 48.7-48.9C560 343.6 560 256 560 256s0-87.6-10.3-131.9zM232 334V178l142 78-142 78z"/>
+  </svg>
+</a>
     </div>
   );
 };
